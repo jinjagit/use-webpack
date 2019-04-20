@@ -1,0 +1,26 @@
+{
+  "name": "use-webpack",
+  "version": "1.0.0",
+  "description": "practice with webpack and related tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinjagit/use-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinjagit/use-webpack/issues"
+  },
+  "homepage": "https://github.com/jinjagit/use-webpack#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
