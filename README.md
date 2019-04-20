@@ -8,7 +8,6 @@ The goal of this article is to provide a historical context of how JavaScript to
 
   * To run webpack manually after changing index.js, run <code>./node_modules/.bin/webpack</code>
   * Running <code>npm run server</code> on this repo will start an auto-updating dev server (localhost:8080)
-  * Note: Debugging errors when using webpack bundling may be difficult without using [sourcemaps](https://webpack.js.org/guides/development/#using-source-maps) (not included in this example repo)
 
 ## Summary of steps to get webpack-dev-server up and running:
 
@@ -81,6 +80,7 @@ Now can use ES2015 features, including 'import'.
 
 11. run dev server with:<code>npm run server</code>
 
-### Note:
+### Notes:
 
-  * Addition of npm 'build' and 'watch' scripts ommited from steps above (but included in tutorial), since the dev server will cover their functionality.
+  * Addition of npm 'build' and 'watch' scripts ommited from steps above (but included in tutorial and this example repo app), since the dev server will cover their functionality.
+  * Debugging errors when using webpack bundling may be difficult without using [sourcemaps](https://webpack.js.org/guides/development/#using-source-maps) (not included in this example repo)
