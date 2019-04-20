@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("let para = document.getElementById('para');\npara.innerHTML = 'hello world!'\n\n// index.js\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"Hello from JavaScript!\");\nconsole.log(moment().startOf('day').fromNow());\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("var para = document.getElementById('para');\npara.innerHTML = 'hello world!'; // index.js\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"Hello from JavaScript!\");\nconsole.log(moment().startOf('day').fromNow());\nvar name = \"Bob\",\n    time = \"today\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(time, \"?\"));\nconsole.log('testing webpack watch');\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
