@@ -17,7 +17,7 @@ The goal of this article is to provide a historical context of how JavaScript to
 
 2. Navigate to root of app / repo and run <code>npm init</code> Accept all defaults with 'enter'.
 
-3. (Optional - useful for testing this setup) Install desired JavaScript package(s). For example, install 'moment', with <code>npm install moment --save</code>
+3. (Optional - useful for testing this setup) Install desired JavaScript package(s). For example, install 'moment', with: <code>npm install moment --save</code>
 
 4. Install webpack: <code>npm install webpack webpack-cli --save-dev</code>
 
@@ -80,3 +80,7 @@ Now can use ES2015 features, including 'import'.
   ```
 
 11. run dev server with:<code>npm run server</code>
+
+### Note:
+
+  * Addition of npm 'build' and 'watch' scripts ommited from steps above (but included in tutorial), since the dev server will cover their functionality.
